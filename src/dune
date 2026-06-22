@@ -3,5 +3,6 @@
  (public_name async_websocket)
  (libraries async async_rpc_kernel core_kernel.binary_packing core_kernel.bus
    core cryptokit core_kernel.iobuf)
+ (flags (:standard -alert -crypto))
  (preprocess
   (pps ppx_jane)))

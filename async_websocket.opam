@@ -12,13 +12,13 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.5.0"}
-  "async"
-  "async_rpc_kernel"
-  "core"
-  "core_kernel"
-  "ppx_jane"
-  "cryptokit"        {>= "1.16" & < "1.17"}
-  "dune"             {>= "3.17.0"}
+  "async" {>= "v0.18~" & < "v0.19~"}
+  "async_rpc_kernel" {>= "v0.18~" & < "v0.19~"}
+  "core" {>= "v0.18~" & < "v0.19~"}
+  "core_kernel" {>= "v0.18~" & < "v0.19~"}
+  "ppx_jane" {>= "v0.18~" & < "v0.19~"}
+  "cryptokit" {>= "1.16" & < "1.17"}
+  "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
 synopsis: "A library that implements the websocket protocol on top of Async"

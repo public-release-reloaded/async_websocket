@@ -17,7 +17,7 @@ depends: [
   "core" {>= "v0.18~" & < "v0.19~"}
   "core_kernel" {>= "v0.18~" & < "v0.19~"}
   "ppx_jane" {>= "v0.18~" & < "v0.19~"}
-  "cryptokit" {>= "1.16" & < "1.17"}
+  "cryptokit" {>= "1.16"}
   "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
